@@ -1,6 +1,6 @@
 Package: bistablehistory
 Title: Cumulative History Analysis for Bistable Perception Time Series
-Version: 1.1.1
+Version: 1.1.2
 Authors@R:
     person(given = "Alexander",
            family = "Pastukhov",
@@ -22,23 +22,21 @@ BugReports: https://github.com/alexander-pastukhov/bistablehistory/issues/
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 VignetteBuilder:
     knitr
 Biarch: true
 Depends: 
-    R (>= 3.5.0),
+    R (>= 4.3.0),
     loo,
     rlang,
     rstantools (>= 2.1.1)
 Imports: 
     methods,
     Rcpp (>= 0.12.0),
-    RcppParallel (>= 5.0.1),
     rstan (>= 2.26.0),
     dplyr,
     tibble,
-    magrittr,
     glue,
     boot,
     future,
