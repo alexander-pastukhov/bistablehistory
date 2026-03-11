@@ -1,6 +1,7 @@
 Package: bistablehistory
 Title: Cumulative History Analysis for Bistable Perception Time Series
-Version: 1.1.3
+Version: 1.1.4
+Date: 2026-03-02
 Authors@R:
     person(given = "Alexander",
            family = "Pastukhov",
@@ -39,7 +40,7 @@ Imports:
     tibble,
     glue,
     boot,
-    future,
+    parallel,
     purrr,
     tidyr
 LinkingTo: 
